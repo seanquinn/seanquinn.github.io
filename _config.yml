@@ -20,4 +20,6 @@ email: squinn423@gmail.com
 
 paginate: 5
 
+excerpt_separator: "<!--excerpt-->"
+
 gems: [redcarpet, pygments.rb, jekyll-paginate]

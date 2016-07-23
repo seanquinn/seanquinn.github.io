@@ -9,6 +9,8 @@ comments: true
 
 Computer Science is a fascinating subject that concerns the study of computation. At university I was lucky enough to explore the subject further. 
 
+<!--excerpt-->
+
 During my undergraduate I encountered the subfield of Artificial Intelligence. This topic focuses on the development of intelligent agents. 
 
 ## Artificial Intelligence (AI)
