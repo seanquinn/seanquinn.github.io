@@ -8,7 +8,14 @@ permalink: pretty
 # Setup
 title: Artificial Dev
 description: 'Blog about Artifical Intelligence, Data Science and Python.'
-url: https://www.artificialdev.com
+
+
+url: https://www.artificialdev.com   # with the https protocol
+enforce_ssl: www.artificialdev.com   # without any protocol
+
+# For example, my configuration is this:
+url: https://artificialdev.com
+enforce_ssl: artificialdev.com
 
 author:
   name: 'Sean Anthony Quinn'
