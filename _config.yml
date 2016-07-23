@@ -1,0 +1,23 @@
+# Dependencies
+markdown: redcarpet
+highlighter: true
+
+# Permalinks
+permalink: pretty
+
+# Setup
+title: Artificial Dev
+description: 'Blog about Artifical Intelligence, Data Science and Python.'
+url: http://seanquinn.github.io
+
+author:
+  name: 'Sean Anthony Quinn'
+
+twitter_username: SQuinn7
+github_username: seanquinn
+linkedin_username: squinn423
+email: squinn423@gmail.com
+
+paginate: 5
+
+gems: [redcarpet, pygments.rb, jekyll-paginate]
