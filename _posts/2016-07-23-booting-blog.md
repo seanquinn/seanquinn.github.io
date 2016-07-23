@@ -2,6 +2,7 @@
 layout: post
 title: Booting Blog
 tags: Artificial Intelligence
+comments: true
 ---
  
 > "Computer science is no more about computers than astronomy is about telescopes." - E.W Dijkstra
