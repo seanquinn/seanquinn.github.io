@@ -5,7 +5,9 @@ tags: Python, AI, Juypter, Conda, Pycharm
 comments: true
 ---
 
-[Python](https://www.python.org/) will be used as the programming language of this blog. Python is a flexible language that makes it a good fit for many artificial intelligence tasks. Some other languages may be employed from time to time (such as Prolog for linguistic processing). However feel free to use whatever language you have a personal preference for. 
+[Python](https://www.python.org/) will be used as the programming language of this blog. Python is a flexible language that makes it a good fit for many artificial intelligence tasks. Some other languages may be employed from time to time (such as Prolog for linguistic processing).
+
+<!--excerpt-->
 
 *If you have never programmed before, Python is one of the easiest and beginner friendly languages to get started with. See Useful Links below.*
 
