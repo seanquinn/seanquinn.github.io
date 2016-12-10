@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color:'pink';
+  padding:10;
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', 'sans-serif';
+}
+
+header{
+	position: relative;
+	width: 100%;
+	min-height: 95%;
+	overflow-y: hidden;
+
+ -webkit-box-shadow: 0px 2px 5px 0px rgba(229, 169, 73, 1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(229, 169, 73, 1);
+  box-shadow: 0px 2px 5px 0px rgba(229, 169, 73, 1);
+}
+
+.box-shadow{
+   
+}
+
+a:link{
+  color:'pink';
+  text-decoration: none
+}
+
+a:hover{
+  text-decoration: none
+}
+
+.flat-clouds{
+  color:#ecf0f1;
+}
+
+.flat-silver{
+  color:#bdc3c7;
+}
+
+.white{
+  color:#ffffff;
+}
+
+.spaced{
+  line-height: 1.5;
+}
+
+.logo{
+  font-family: 'Roboto Slab', serif;
+  color:#ffffff;
+  font-size:32px;
+}
+
+.orange{
+  color:#e5a949;
+}
+
+
+.tagline{
+  color:#ffffff;
+  margin-top:22px;
+}
+
+.small-buffer{
+  margin-top:20px;
+}
+
+.large-buffer{
+  margin-top:50px;
+}
+
+.subscribe{
+  color:#ecf0f1;
+  background-color:#e5a949;
+}
+
+.gradient{
+   /* can be treated like a fallback */
+  background-color: #2d4163;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(to right, #2d4163, #2d4153);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: #2d4163;
+  background: linear-gradient(to right, #2d4163, #2d4153);
+}
+
+.footer{
+  background-color:#7f8c8d;
+  min-height: 5%;
+  width:100%;
+  padding:5px;
+  color:#ffffff;
+}
+
+
+/* Mailchimp Styling */
+
+#mc_embed_signup{background:#2d4163; clear:left; font:14px 'Open Sans',Arial,sans-serif; width:100%;}
+#mc-embedded-subscribe{
+  background-color:#e5a949;
+  color:#ecf0f1;
+}
