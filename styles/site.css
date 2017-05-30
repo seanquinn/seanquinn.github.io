@@ -5,6 +5,10 @@ html, body{
 	background-color:#fcfeff;
 }
 
+.color-primary {
+	color:#00a97d;
+}
+
 .wrapper{
 	margin-left: auto;
 	margin-right:auto;
