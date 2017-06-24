@@ -50,5 +50,5 @@ Now the important part is to register your domain. This part is pretty simple, y
 
 Here you enter the domain name that you would like to register. The registrar then checks if the domain is available, and if so you can then choose to purchase it for a specified amount of time. Unregistered domains are not expensive, a typical .com costs around £10-£15 per year.
 
-*Liked this article? Check out [Part 2]({{site.baseurl}}/getting-your-small-business-online-part-two/) of our advice to getting your small business online. If you have any questions about getting your small business online, [reach out to us]({{ site.baseurl }}/contact) at and we would be happy to work with your business to get you online. *
+*Liked this article? Check out [Part 2]({{site.baseurl}}/getting-your-small-business-online-part-two/) of our advice to getting your small business online. If you have any questions about getting your small business online, [reach out to us]({{ site.baseurl }}/contact) at and we would be happy to work with your business to get you online.*
 
