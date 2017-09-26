@@ -231,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/feature-bg-dark.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -256,9 +256,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  color:#eeeeee;
 }
 #feature p {
-  color: #8d8f92;
+  color: #dddddd;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
