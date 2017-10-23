@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -65,7 +65,7 @@ a:active {
 	Header Start
 --*/
 header {
-  background: #fff;
+  background: #34495e;
   padding: 20px 0;
 }
 header .navbar {
@@ -83,13 +83,12 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #34495e;
+  color: #fff;
   padding: 10px 26px;
   font-size: 16px;
-  font-weight:bold;
 }
 header .navbar-default .navbar-nav li a:hover {
-  color: #666;
+  color: #ddd;
 }
 /*---------------------------------------------
 					Index Start
@@ -114,14 +113,14 @@ header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #2c3e50, #000000);
+  background: linear-gradient(to left, #2c3e50, #222222);
   opacity: 0.8;
 }
 #slider .block {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -634,7 +633,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -644,7 +643,7 @@ header .navbar-default .navbar-nav li a:hover {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
