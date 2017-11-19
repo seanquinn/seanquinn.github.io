@@ -61,6 +61,11 @@ a:active {
   font-style: italic;
   color: #666;
 }
+
+.logo{
+  width:370px;
+  height:200px;
+}
 /*--
 	Header Start
 --*/
