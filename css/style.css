@@ -4,6 +4,11 @@
  *
  */
 
+@font-face {
+    font-family: 'Arkhip';
+    src: url('../fonts/Arkhip_font.ttf');
+}
+
  .italic {
    font-style: italic;
  }
