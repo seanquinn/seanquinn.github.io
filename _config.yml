@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: artificialdev
+title: Artificial Development Studio
 subtitle: "Bespoke Software Development"
 url: "http://artificialdev.com" # the base hostname & protocol for your site
 baseurl: ""
