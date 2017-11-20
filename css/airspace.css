@@ -13,6 +13,10 @@
 /*--
 	Common Css
 --*/
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -32,6 +36,10 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 300;
+}
+
+h3.welcome{
+  font-family: 'Roboto Slab';
 }
 p {
   font-size: 15px;
@@ -70,9 +78,9 @@ a:active {
 	Header Start
 --*/
 header {
-  background: #485563;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #485563;   fallback for old browsers 
+  background: -webkit-linear-gradient(to left, #29323c, #485563);
+  background: linear-gradient(to left, #29323c, #485563); 
 
   padding: 10px 0;
 }
@@ -283,6 +291,10 @@ header .navbar-default .navbar-nav li a:hover {
   background: #2c3e50;
   color: #fff;
   padding: 10px 20px;
+}
+
+.btn-view-works:hover{
+  color:#dcb965;
 }
 /*--
 	content Start
