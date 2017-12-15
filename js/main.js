@@ -1,51 +1,29 @@
 $(document).ready(function(){
+	var sliderImages = ["slider-one.png", "slider-two.jpg", "slider-three.jpg", "slider-four.jpg"];
+	var sliderIdx = 0;
+	var slider = $('#slider');
+	var CHANGE_IMAGE_INTERVAL = 7500;
+	
+	nextImage(sliderIdx);
 
+	setInterval(function(){
+		sliderIdx = (sliderIdx + 1) % sliderImages.length;
+		nextImage(sliderIdx)
+	}, CHANGE_IMAGE_INTERVAL);
 
-	$("#portfolio-contant-active").mixItUp();
-
-
-	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
-	    singleItem:true,
-	    autoPlay: 3000,
-	});
-
-
-
-
-	$("#clients-logo").owlCarousel({
-		autoPlay: 3000,
-		items : 5,
-		itemsDesktop : [1199,5],
-		itemsDesktopSmall : [979,5],
-	});
-
-	$("#works-logo").owlCarousel({
-		autoPlay: 3000,
-		items : 5,
-		itemsDesktop : [1199,5],
-		itemsDesktopSmall : [979,5],
-	});
-
+	function nextImage(idx){
+		var imgUrl = '../img/' + sliderImages[idx];
+		slider.css("background-image", "url(" + imgUrl + ")"); 
+	}
 
 	// google map
-		var map;
-		function initMap() {
+	var map;
+	function initMap() {
 		  map = new google.maps.Map(document.getElementById('map'), {
 		    center: {lat: -34.397, lng: 150.644},
 		    zoom: 8
 		  });
 		}
-
-
-	// Counter
-
-	$('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-
-
 });
 
 

@@ -3,17 +3,39 @@ layout: landing
 title: Artificial Development
 permalink: /
 ---
+<header>
+  <nav class="navbar navbar-default navbar-transparent">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl}}/#"><img class='logo' src="{{site.baseurl}}/img/color_logo_transparent@2x.png" alt="Img"></a>
+      </div>
 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-items">
+          <li><a href="{{ site.baseurl}}/#">Home</a></li>
+          <li><a href="{{ site.baseurl}}/#intro">About</a></li>
+          <li><a href="{{ site.baseurl}}/#service">Services</a></li>
+          <li><a href="{{ site.baseurl}}/#contact-form">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
 <section id="slider">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="text-center">
-          <img class="logo" src="{{ site.baseurl }}/img/logo-transparent-lg.png" alt="Logo">
           <div class="block">
-           <h4 class="welcome spacer-top">Welcome to Artificial Development</h4>
-           <h5 class="welcome spacer-top">A Bespoke Software Development Studio in Belfast, Northern Ireland</h5>
-            <a href="#intro" class="btn btn-view-works spacer-top">Read more</a>
+           <h1 class='welcome'>Building powerful applications</h1>
+           <div class='subtitle'>A Bespoke Software Development Studio in Belfast, Northern Ireland</div>
         </div>
         </div>
       </div>
@@ -28,18 +50,18 @@ permalink: /
         <div class="block">
           <div class="section-title">
             <h2>About Us</h2>
-            <p></p>
+            <p>A little history</p>
           </div>
-          <p>Hey there! Welcome to Artificial Development's digital home. As Artificial Development is a startup, we do things a little differently around here. Our goal is to work closely with you to deliver you software that doesn't cost a fortune, while meeting all of your needs. </p>
+          <p>Hey there! Welcome to Artificial Development's digital home. My name is Sean Quinn and I am the founder of the company. As Artificial Development is a startup, we do things a little differently around here. Our goal is to work closely with you to deliver you software that doesn't cost a fortune, while meeting all of your needs. </p>
           <p>You won't see us rocking suits, but more than likely in a hoody with a cup of coffee working studiously on our laptops.
           Our expertise is in Software Development, Artificial Intelligence and Technical Consultation. 
-          We would love to <a href="{{ site.baseurl }}/contact">work with your business</a> and we're sure you won't regret it!
+          We would love to <a href="{{ site.baseurl }}#contact-form">work with your business</a> and we're sure you won't regret it!
           </p>
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="img/wrapper-img.png" alt="Img">
+          <img src="{{site.baseurl}}/img/wrapper-img.png" alt="Img">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
@@ -53,7 +75,6 @@ permalink: /
       <h2>Blending Technology with Business</h2>
       <p>Here at Artificial Development, we believe in the power of software and how it can be used to maximise value for business stakeholders. That's why it is our mission to create powerful software that can improve your business potential.</p>
       <p>Every project will involve direct contact with you, the customer, as well as providing regular demos to ensure that your project is going the way you want it to.</p>
-      <a href="{{ site.baseurl }}/work" class="btn btn-view-works">View Portfolio</a>
     </div>
   </div>
 </div>
@@ -73,14 +94,14 @@ permalink: /
         <div class="service-item">
           <i class="icon ion-cloud"></i>
           <h4>Web Development</h4>
-          <p>Take your business online with our bespoke web application development</p>
+          <p>Bespoke web applicaitons to take your business online</p>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="service-item">
           <i class="ion-iphone"></i>
           <h4>App Development</h4>
-          <p>Stay updated on the go with our custom mobile application development</p>
+          <p>Custom mobile apps to stay updated on the go</p>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
@@ -129,3 +150,75 @@ permalink: /
   </div>
 </section>
 {% include action.html %}
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>We would love to hear about your business needs.</p>
+          </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <form action="https://formspree.io/sean@artificialdev.com" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" placeholder="Subject">
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+            <div class="form form-group-2">
+              <textarea class="form-control" name="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="contact-box" class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <h2>Reach out to Us </h2>
+          <ul class="address-block">
+            <li>
+              <i class="fa fa-map-marker"></i> Blick Shared Studios, 51 Malone Rd, Belfast, Northern Ireland, BT9 6RY
+            </li>
+            <li>
+              <i class="fa fa-envelope-o"></i>Email: sean@artificialdev.com
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>Phone: +44 7716 294562
+            </li>
+          </ul>
+
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.linkedin.com/organization/11179198/"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/artificialdev"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=https://www.facebook.com/artificialdev/><i class="fa fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <h2>Find Us on Google Maps</h2>
+            <div class="google-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.3601074291137!2d-5.941520484114697!3d54.580028580256034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108ec125aa945%3A0x1aee7582bdba8c9d!2sBlick+Shared+Studios!5e0!3m2!1sen!2suk!4v1502051864043" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
