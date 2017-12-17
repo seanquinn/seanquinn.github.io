@@ -38,3 +38,15 @@
 .spacer-top{
   margin-top:20px;
 }
+
+.navbar-default .navbar-toggle{
+  color:#fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:#fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border:none;
+}
