@@ -41,6 +41,7 @@ h1.welcome{
   color:white;
   text-transform: uppercase;
   font-size: 48px;
+  margin-top:60px;
 }
 
 .subtitle{
@@ -84,10 +85,18 @@ a:active {
   height:30px;
 }
 
+.preload{
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .logo{
       width:200px;
       height:20px;
+    }
+
+    .footer-logo{
+      display: none;
     }
   }
 /*--
@@ -120,7 +129,7 @@ header .transparent{
 .navbar-items{
   text-transform: uppercase;
   font-weight: bold;
-  
+  margin-top:8px;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -141,7 +150,7 @@ header .transparent{
   background-color:#0e0e0e;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: 20% 0%;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -159,7 +168,7 @@ header .transparent{
   overflow: hidden;
   z-index:0;
   background: linear-gradient(to left, #2c3e50, #000000);
-  opacity: 0.5;
+  opacity: 0.75;
 }
 /*--
 	wrapper Start
@@ -294,6 +303,9 @@ header .transparent{
   background: #2c3e50;
   color: #fff;
   padding: 10px 20px;
+  margin-top:20px;
+  font-size:15px;
+  text-transform: uppercase;
 }
 
 .btn-view-works:hover{

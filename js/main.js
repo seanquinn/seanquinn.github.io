@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	var sliderImages = ["slider-one.png", "slider-two.jpg", "slider-three.jpg", "slider-four.jpg"];
-	var sliderIdx = 0;
+	var sliderImages = ["slider-one.png", "slider-two.jpeg", "slider-three.jpeg", "slider-four.jpeg", "slider-five.jpg"];
+	var sliderIdx = 4;
 	var slider = $('#slider');
 	var CHANGE_IMAGE_INTERVAL = 7500;
 	
