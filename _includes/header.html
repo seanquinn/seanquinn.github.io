@@ -1,40 +1,29 @@
 <!-- Header Start -->
 {% if page.header %}
-<header>
-<div class="container">
-  <div class="row">
-
-
-    <div class="col-md-12">
-      <!-- header Nav Start -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img src="{{ site.baseurl }}/img/transparent-logo.png" alt="Logo">
-            </a>
-          </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Our Work</a></li>
-               <!--  <li><a href="{{ site.baseurl }}/blog">Blog</a></li> -->
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+  <header>
+  <nav class="navbar navbar-default navbar-transparent">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl}}/#"><img class='logo' src="{{site.baseurl}}/img/color_logo_transparent@2x.png" alt="Img"></a>
       </div>
-    </div>
-  </div>
-</header><!-- header close -->
-      {% endif %}
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-items">
+          <li><a href="{{ site.baseurl}}/#">Home</a></li>
+          <li><a href="{{ site.baseurl}}/#intro">About</a></li>
+          <li><a href="{{ site.baseurl}}/#service">Services</a></li>
+          <li><a href="{{ site.baseurl}}/#contact-form">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+{% endif %}
 
